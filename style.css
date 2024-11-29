@@ -1,39 +1,85 @@
 /* General Styles */
 body {
-    background-color: black;
-    color: white;
-    font-family: 'Syne V', cursive;
+    background-color: #0d1117; /* Dark background for contrast */
+    color: #c9d1d9; /* Light text for readability */
+    font-family: 'Syne V', cursive; /* Matching the imported font */
     text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
+/* Container Styling */
 .container {
     margin-top: 50px;
+    padding: 20px;
 }
 
 /* Neon Text */
 .neon-text {
-    font-size: 3rem;
-    color: #FFFFFF;
-
+    font-size: 2.5rem;
+    color: #58a6ff; /* Neon blue */
+   
+    margin-bottom: 20px;
 }
 
-/* Neon Links */
+/* Links Section */
 .neon-link {
     display: inline-block;
     margin: 10px;
-    font-size: 1.5rem;
-    color: #FFFFFF;
+    font-size: 1.2rem;
+    color: #58a6ff; /* Neon blue for links */
     text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
     position: relative;
-    
 }
 
 .neon-link:hover {
+    border-color: #58a6ff;
+    background: rgba(88, 166, 255, 0.1); /* Subtle hover background */
+    text-shadow: 0 0 5px #58a6ff, 0 0 10px #58a6ff, 0 0 20px #58a6ff;
 }
 
+/* Icon Styling */
 .icon {
     width: 30px;
     height: 30px;
     vertical-align: middle;
     margin-right: 8px;
+}
+
+/* Section Styling */
+h2 {
+    color: #c9d1d9;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    text-shadow: 0 0 5px #ffffff50;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+li {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #adbac7; /* Muted white for subtext */
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* GitHub Stats Section */
+img {
+    margin: 10px auto;
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
 }
