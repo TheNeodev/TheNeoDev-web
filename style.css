@@ -1,0 +1,39 @@
+/* General Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Syne V', cursive;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Neon Text */
+.neon-text {
+    font-size: 3rem;
+    color: #FFFFFF;
+
+}
+
+/* Neon Links */
+.neon-link {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    
+}
+
+.neon-link:hover {
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
